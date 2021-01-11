@@ -1,0 +1,107 @@
+- The programmer of this game probably had a jump table obsession, because these things were everywhere! It was annoying to disassemble.
+
+- The only thing this programmer loved more than jump tables was unorganized RLE compressed files. They are so many of them!
+
+- For whatever dumb reason, the arcade ports intentionally disable FastROM addressing, even going as far as storing #$00 to $420D. Why?
+
+- The way this game handles switching between 8/16-bit A/X/Y made this game tricky to disassemble.
+
+
+Entrance IDs
+0000 = Exit Pac-Man's house, exit house (Tutorial)
+0001 = Unused? (Leads to duplicate of Village Way, with no sprites and tutorial music)
+0002 = Unused? (Leads to duplicate of Pac-Man's House, with no sprites and tutorial music)
+0003 = Unused? (Leads to Pac-Man's House, Pac-Man falls from the sky)
+0004 = Pac-Man's Room
+0005 = Pac-Man's House, exit house
+0006 = Pac-Man's House, left gate
+0007 = Pac-Man's House, right gate
+0008 = Village Way, exit Lucy's House
+0009 = Village Way, left side
+000A = Village Way, right side
+000B = Old Arcade, exit arcade
+000C = Park, left side
+000D = Park, right side
+000E = Old Arcade, exit train station
+000F = Old Arcade, left side
+0010 = Old Arcade, right side
+0011 = Stock Farm, exit Rope-Way
+0012 = Stock Farm, left side
+0013 = Stock Farm, right side
+0014 = Ropeway Station, fall out of hole.
+0015 = Ropeway Station, rope (Unused?)
+0016 = Ropeway Station, exit Rope-Way
+0017 = Ropeway Station, left side
+0018 = Ropeway Station, right side
+0019 = Forest, left side
+001A = Forest, right side
+001B = Entrance of Cave, left side
+001C = Dangerous Cave, In Mine cart
+001D = Arrival Point, left side
+001E = Arrival Point, right side
+001F = Construct Area, left side
+0020 = Construct Area, right side
+0021 = Cliff, bottom of rope
+0022 = Misty Flight
+0023 = Hillock, hang glider entry
+0024 = Hillock, right side
+0025 = Top Of The MTN., left side
+0026 = Station St., exit train station
+0027 = Station St., exit arcade
+0028 = Station St., left side
+0029 = Station St., right side
+002A = Fountain Way, exit department store
+002B = Fountain Way, left side
+002C = Fountain Way, right side
+002D = Main St., left side
+002E = Main St., right side
+002F = Industrial Area, fall down
+0030 = Industrial Area, exit factory
+0031 = Industrial Area, left side
+0032 = Industrial Area, right side
+0033 = Sewer, ladder
+0034 = Warehouse, ladder
+0035 = Warehouse, right side
+0036 = Secret Plant, left side
+0037 = Secret Plant, right side
+0038 = Biochemical Lab, left side
+0039 = Biochemical Lab, right side
+003A = Locked Door
+003B = Rooftop
+003C = Pulley Area, below
+003D = Pulley Area, left side
+003E = Under Building
+003F = Debug Room
+0040 = Lucy's Room
+0041 = Old Game Center
+0042 = Game Center
+0043 = Department Store
+0044 = Gum Monster!!!
+0045 = Old Game Center, finish playing Pac-Man
+0046 = Old Game Center, finish playing Ms. Pac-Man
+0047 = Game Center, finish playing Pac-Man
+0048 = Game Center, finish playing Ms. Pac-Man
+0049 = Top Of The MTN., below
+004A = Sewer, exit secret door
+004B = Secret Path
+004C = Secret Way, In Mine cart
+004D = Secret Underpass
+004E = Pac-Man's House, under bush
+004F = Pac-Man's House, exit house
+0050 = Dangerous Cave, Pac-Man not in minecart
+0051 = Sewer, bottom of ladder
+0052 = Warehouse, top of ladder
+0053 = Cliff, top of rope
+0054 = Ropeway station, bottom of rope
+0055 = Secret Way, Pac-Man not in minecart
+0056 = Top Of The MTN., Middle
+0057 = Glitched
+0058 = Ropeway Station, exit hidden path
+0059 = Secret Runway
+005A = Secret Route
+005B = Park, hang glider entrance
+005C = Dangerous Cave (Time Trial)
+005D = Secret Way (Time Trial)
+005E = Misty Flight (Time Trial)
+005F = Secret Route (Time Trial)
+0060+ = Glitched
